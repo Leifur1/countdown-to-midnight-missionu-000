@@ -1,13 +1,16 @@
-#write your code here
-int == 5
-def countdown(int)
-  if int == 0
-    puts "HAPPY NEW YEAR!"
-  end
+def countdown(num)
+ while num > 0
+   puts "#{num} SECOND(S)!"
+  num -= 1
+ end
+  "HAPPY NEW YEAR!"
+end
 
-  while int != 0
-    puts "#{int} SECOND(S)!"
+def countdown_with_sleep(num)
+  while num > 0
+    puts "#{num} SECOND(S)!"
+    sleep(1)
+    num -= 1
   end
-  sleep(1.second)
-  int -= 1
+  "HAPPY NEW YEAR!"
 end
