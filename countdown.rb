@@ -8,4 +8,5 @@ def countdown(integer)
     puts "#{integer} SECOND(S)!"
   end
   integer -= 1
+  sleep(1.second)
 end
